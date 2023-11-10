@@ -3,12 +3,12 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-algo: v0.1.1
+algo: "nana"
 image:
   repository: pgfsw/nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.0"
+  tag: v0.1.2
 
 imagePullSecrets: []
 nameOverride: ""
