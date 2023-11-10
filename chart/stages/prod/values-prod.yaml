@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: kostiscodefresh/helm-promotion-app
+  repository: pgfsw/nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "v0.1.0"
 
 imagePullSecrets: []
 nameOverride: ""
