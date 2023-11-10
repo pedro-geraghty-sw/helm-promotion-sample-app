@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-algo: v0.1.0
+algo: v0.1.1
 image:
   repository: pgfsw/nginx
   pullPolicy: IfNotPresent
